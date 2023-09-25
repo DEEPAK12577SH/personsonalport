@@ -347,6 +347,9 @@ form input, form textarea{
     margin-top: -40px;
     display: block;
 }
+nav .fa ,.bar{
+    display: none;
+}
 
 /*-----------responsive sizes-----*/
 
@@ -364,9 +367,14 @@ form input, form textarea{
         font-size: 30px;
         }
 
-     nav .fa,.fa-bars{
+     nav .fa{
          display: block;
         }
+    nav .bar{
+       margin-left: 85%;
+        top:35px;
+        cursor: pointer;
+    }
 
     nav ul{
         background: #f13f77;
